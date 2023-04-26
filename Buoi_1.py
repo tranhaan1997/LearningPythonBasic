@@ -39,9 +39,21 @@
 # print(hello)
 # print(type(hello))
 
-hi = 'hello world'
+# hi = 'hello world'
 # print(hi[0])
 # print(hi[0 : 5]) # Mặc định from : index và to : index + 1 
 # print(hi[:5])
 # print(hi[-5:])
-print(len(hi))
+# print(len(hi))
+
+
+# chuoi_1 = 'hello'
+# chuoi_2 = "world"
+
+# print(chuoi_1 + ' ' + chuoi_2)
+# print((chuoi_1 + ' ') * 3)
+
+a = '10'
+b = 5
+
+print(int(a) + b)
