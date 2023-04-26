@@ -53,7 +53,17 @@
 # print(chuoi_1 + ' ' + chuoi_2)
 # print((chuoi_1 + ' ') * 3)
 
-a = '10'
-b = 5
 
-print(int(a) + b)
+# a = '10'
+# b = 5
+
+# print(int(a) + b)
+
+
+# a = '10 + 10.5'
+# b = eval(a)
+# print(b)
+# print(type(b))
+
+
+print(chr(98))
