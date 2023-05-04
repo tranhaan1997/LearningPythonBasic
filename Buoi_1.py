@@ -66,4 +66,39 @@
 # print(type(b))
 
 
-print(chr(98))
+# print(chr(98))
+
+# a = 4
+# b = 5
+# c = 1
+# print("tong cua 3 so abc = %d va tich cua 3 so abc = %d" %(a+b+c,a*b*c))
+# print("tong cua 3 so %d + %d + %d = %d" %(a,b,c,a+b+c))
+
+# a = 3.14545656
+# print("%10.2f" %(a))
+
+# b = 'hello world'
+# print('%.5s' %(b)) 
+
+
+# a = "tâm"
+# b = 'python'
+# print('trung %s tin học'  %(a) + ' abc %s' %(b))
+# print('%s' %(a))
+# print("khoa hoc" + " python")
+
+# a,b = 5 , -7
+# print('{} + {} = {}'.format(a,b,a+b))
+# print('{x} + {y} = {z}'.format(x=a,y=b,z=a+b))
+# print('{:+.2f} {:+.1f} = {:+.1f}'.format(a,b,a+b))
+# print('{:0>5d} + {:<6d} = {:>2d}'.format(a,b,a+b))
+
+# n = 122345566778
+# print('{:,.1f}'.format(n))
+
+
+# b = 100
+# print('{:,.1f} cm\u00b2'.format(b))
+
+print('what\n your name?')
+print('What\'s your name')
