@@ -16,9 +16,8 @@
 # print("Chuỗi '%s' có chiều dài: " %chuoi, len(chuoi))
 # nhap_in = eval(input("Nhập vào index: "))
 # print("Ký tự tại vị trí index %d là: " %nhap_in, chuoi[nhap_in])
-# nhap_ran_dau = eval(input("Nhập vào range index đầu: "))
-# nhap_ran_cuoi = eval(input("Nhập vào range index cuối: "))
-# print("Ký tự từ vị trí index %d đến %d là: " %(nhap_ran_dau,nhap_ran_cuoi), chuoi[nhap_ran_dau:nhap_ran_cuoi])
+# ran_dau, ran_cuoi = input("Nhập range index để lấy ký tự: ").split(",")
+# print("Ký tự từ vị trí index %s đến %s là: " %(ran_dau,ran_cuoi), chuoi[int(ran_dau):int(ran_cuoi)])
 
 # Bài 4
 
