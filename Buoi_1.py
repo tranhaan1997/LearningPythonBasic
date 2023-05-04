@@ -100,5 +100,14 @@
 # b = 100
 # print('{:,.1f} cm\u00b2'.format(b))
 
-print('what\n your name?')
-print('What\'s your name')
+# print('what\n your name?')
+# print('What\'s your name?')
+
+# name = input("what is your name: ")
+# print("your name is: %s" %name)
+# print("your name is:", name)
+
+# a = eval(input("Nhập vào số a: "))
+# b = eval(input("Nhập vào số b: "))
+# c = eval(input("Nhập vào số c: "))
+# print("%d + %d + %d = %d" %(a,b,c,a+b+c))
