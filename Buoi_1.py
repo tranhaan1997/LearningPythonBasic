@@ -111,3 +111,25 @@
 # b = eval(input("Nhập vào số b: "))
 # c = eval(input("Nhập vào số c: "))
 # print("%d + %d + %d = %d" %(a,b,c,a+b+c))
+
+
+# mat_khau = input("Nhập mật khẩu: ")
+# if mat_khau == "anth":
+#     print("Mật khẩu chính xác")
+# else:
+#     print("Sai mật khẩu")
+    
+# mat_khau = input("Nhập mật khẩu: ")
+# if mat_khau != "anth":
+#     print("Nhập sai mật khẩu")
+# else:
+#     print("Nhập đúng mật khẩu")
+
+so = int(input("Nhập vào số nguyên: "))
+if so >= 0:
+    if so == 0:
+        print("Là số 0: ",so)
+    else:
+        print("Là số nguyên dương:", so)
+else:
+    print("Là số nguyên âm: ",so)
