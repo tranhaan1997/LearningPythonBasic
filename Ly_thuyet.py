@@ -125,11 +125,20 @@
 # else:
 #     print("Nhập đúng mật khẩu")
 
-so = int(input("Nhập vào số nguyên: "))
-if so >= 0:
-    if so == 0:
-        print("Là số 0: ",so)
-    else:
-        print("Là số nguyên dương:", so)
+# so = int(input("Nhập vào số nguyên: "))
+# if so >= 0:
+#     if so == 0:
+#         print("Là số 0: ",so)
+#     else:
+#         print("Là số nguyên dương:", so)
+# else:
+#     print("Là số nguyên âm: ",so)
+
+a = eval(input("Nhập x: "))
+if a >= 0:
+    print("Giá trị tuyệt đối của x là: ",a)
 else:
-    print("Là số nguyên âm: ",so)
+    a = -a
+    print("Giá trị tuyệt đối x là: ",a)
+    
+    
