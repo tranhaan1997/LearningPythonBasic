@@ -134,11 +134,46 @@
 # else:
 #     print("Là số nguyên âm: ",so)
 
-a = eval(input("Nhập x: "))
-if a >= 0:
-    print("Giá trị tuyệt đối của x là: ",a)
-else:
-    a = -a
-    print("Giá trị tuyệt đối x là: ",a)
-    
-    
+# a = eval(input("Nhập x: "))
+# if a >= 0:
+#     print("Giá trị tuyệt đối của x là: ",a)
+# else:
+#     a = -a
+#     print("Giá trị tuyệt đối x là: ",a)
+
+# Vòng lặp while
+# i = 1
+# while i <=  10:
+#     print(i)
+#     i += 1
+
+
+# n = 1
+# while n == 1:
+#     print("thoa dk")
+#     n = eval(input("Nhâp n: "))
+
+# print("Bảng cửu chương 2")
+# i = 1
+# while i <= 10:
+#     print("3 x ",i," = ",3*i)
+#     i += 1
+
+
+# In ra số thứ tự từ 10 đến 1
+# a = eval(input("Nhập vào số nguyên: "))
+# while a >= 1:
+#     print(a)    
+#     a -= 1
+# print("start!!!")
+
+# Tính tổng các số nguyên nhập vào
+print("Chương trình tính tổng N số nguyên")
+a = int(input("Nhập n: "))
+b = 1
+tong = 0
+while b <= a:
+    c = int(input("Nhập vào số nguyên thứ %d: " %(b)))
+    b += 1
+    tong += c
+print ("Tổng = ", tong)
