@@ -168,12 +168,58 @@
 # print("start!!!")
 
 # Tính tổng các số nguyên nhập vào
-print("Chương trình tính tổng N số nguyên")
-a = int(input("Nhập n: "))
-b = 1
-tong = 0
-while b <= a:
-    c = int(input("Nhập vào số nguyên thứ %d: " %(b)))
-    b += 1
-    tong += c
-print ("Tổng = ", tong)
+# print("Chương trình tính tổng N số nguyên")
+# a = int(input("Nhập n: "))
+# b = 1
+# tong = 0
+# while b <= a:
+#     c = int(input("Nhập vào số nguyên thứ %d: " %(b)))
+#     b += 1
+#     tong += c
+# print ("Tổng = ", tong)
+
+# In một dãy số
+# dayso = [1,2,3,4,5,9,8,7,6]
+# for so in dayso:
+#     print("Cac so la: ",so)
+    
+# In phần tử trong chuỗi
+# chuoi = "Hello world!"
+# for kytu in chuoi:
+#     print("Ký tự là: ",kytu)
+
+# Tạo ra một dãy số
+# print("Tạo ra dãy số: ",list(range(10,1,-1)))
+# print("Tạo ra dãy số: ",list(range(1,10,2)))
+
+# Áp dụng range vào trong vòng for
+# for i in range(1,11):
+#     print("3 x ",i," = ",3*i)
+    
+# for i in range(10,0,-1):
+#     print("3 x ",i," = ",3*i)
+
+
+# Cho người dùng nhập vào một chuỗi. Đếm số ký tự trắng có trong chuỗi
+# chuoi = input("Nhập vào một chuỗi: ")
+# i = 0
+# dem = 0
+# while i < len(chuoi):
+#     if chuoi[i] == " ":
+#         dem += 1
+#     i += 1
+# else:
+#     print("Chuỗi có số khoảng trắng là: ",dem)
+
+
+# Cho người dùng nhập vào n số nguyên. Tính trung bình cộng của các số nguyên
+# so = int(input("Bạn muốn nhập bao nhiêu giá trị: "))
+# tong = 0
+# for i in range(1,so+1):
+#     gia_tri = int(input(f'Nhập vào giá trị {i}: '))
+#     tong += gia_tri
+# else:
+#     print(f'Giá trị trung bình: {tong/so}')
+
+
+# Thực hành lệnh break
