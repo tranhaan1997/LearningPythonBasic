@@ -223,3 +223,14 @@
 
 
 # Thực hành lệnh break
+danh_sach_so = [1,2,3,4,5,6,7,8,9]
+gia_tri_tim = int(input("Nhập vào giá trị cần tìm: "))
+n = 0
+while n < len(danh_sach_so) - 1:
+    if danh_sach_so[n] == gia_tri_tim:
+        print(f'Tìm thấy giá trị {gia_tri_tim} tại vị trí index = {n}')
+        break
+    n += 1
+else:
+    print(f'Không tìm thấy giá trị {gia_tri_tim} trong danh sách')
+
