@@ -222,15 +222,37 @@
 #     print(f'Giá trị trung bình: {tong/so}')
 
 
-# Thực hành lệnh break
-danh_sach_so = [1,2,3,4,5,6,7,8,9]
-gia_tri_tim = int(input("Nhập vào giá trị cần tìm: "))
-n = 0
-while n < len(danh_sach_so) - 1:
-    if danh_sach_so[n] == gia_tri_tim:
-        print(f'Tìm thấy giá trị {gia_tri_tim} tại vị trí index = {n}')
-        break
-    n += 1
-else:
-    print(f'Không tìm thấy giá trị {gia_tri_tim} trong danh sách')
+# # Thực hành lệnh break
+# danh_sach_so = [1,2,3,4,5,6,7,8,9]
+# gia_tri_tim = int(input("Nhập vào giá trị cần tìm: "))
+# n = 0
+# while n < len(danh_sach_so) - 1:
+#     if danh_sach_so[n] == gia_tri_tim:
+#         print(f'Tìm thấy giá trị {gia_tri_tim} tại vị trí index = {n}')
+#         break
+#     n += 1
+# else:
+#     print(f'Không tìm thấy giá trị {gia_tri_tim} trong danh sách')
 
+
+# Các kiểu khai báo in ra màn hình
+# a,b = 1,2
+
+# print("giá trị a = %d  và b = %d" %(a,b))
+# print("Giá trị của a = {} và b = {}" .format(a,b))
+# print (f'giá trị a = {a} và b = {b}')
+
+# in ra những tên ngoại trừ tên có 4 chữ
+# danh_sach_ten = ['mai', 'cúc','trúc','đào','đông','xuân','hạ','thu']
+# for ten in danh_sach_ten:
+#     if len(ten) == 4:
+#         continue
+#     print('Xin chào', ten)
+# print('kết thúc')
+
+i = 1
+while i:
+    nhap_chuoi = input("Nhập vào ký tự: ")
+    if nhap_chuoi == "0":
+        break
+    i += 1
