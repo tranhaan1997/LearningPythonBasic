@@ -250,9 +250,13 @@
 #     print('Xin chào', ten)
 # print('kết thúc')
 
-i = 1
-while i:
-    nhap_chuoi = input("Nhập vào ký tự: ")
-    if nhap_chuoi == "0":
-        break
-    i += 1
+
+
+# Chưa hoàn thiện
+# i = 1
+# lst  = []
+# while i:
+#     nhap_chuoi = input("Nhập vào ký tự: ")
+#     if nhap_chuoi == "0":
+#         i += 1
+#         break
