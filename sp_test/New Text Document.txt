@@ -1,0 +1,3 @@
+@echo off
+"C:\Users\tranhaan\AppData\Local\Microsoft\WindowsApps\python.exe" "‪D:\LearningPythonBasic\sp_test\sp.py"
+pause
