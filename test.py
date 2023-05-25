@@ -25,3 +25,37 @@
 #     if num > x:
 #         lst2.append(num)
 # print("các con số lớn hơn x là: ",lst2)
+
+kt = 1
+kt2 = "y"
+dssv = {}
+fnd = {}
+while kt:
+    print('Nhập thông tin danh sách sinh viên!!!')
+    manv = (input('Nhập mã sinh viên: '))
+    tensv = (input('Nhập tên sinh viên: '))
+    diemso = (eval(input('Nhập điểm số: ')))
+    namsinh = (int(input('Nhập năm sinh: ')))
+    kt = (int(input('nhập giá trị tiếp không:  1:có   0:không : ')))
+    dssv[manv] = [tensv,diemso,namsinh]
+    if kt == 0 :
+        break
+    elif kt !=1:
+        print('vui lòng kiểm tra lại cú pháp')
+print("Danh sách sinh viên \n")
+print(dssv)
+def tim(find):
+    if find not in dssv:
+        return "Không tìm thấy trong dssv"
+    else:
+        tim = [tensv,diemso,namsinh]
+        return tim
+while kt2:
+    tim_MSV = input("Nhập mã sinh viên cần tìm: ")
+    fnd = tim(tim_MSV)
+    print(fnd)
+    kt2 = input("Nhấn y để tiếp tục hoặc nhấn bất kỳ để dừng lại!!!   ")
+    if kt2 =="n":
+        break
+    else:
+        kt= input("Bạn muốn tiêp tục hay không(y/n): ")
