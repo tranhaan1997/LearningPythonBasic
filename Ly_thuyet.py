@@ -250,8 +250,6 @@
 #     print('Xin chào', ten)
 # print('kết thúc')
 
-
-
 # Chưa hoàn thiện
 # i = 1
 # lst  = []
@@ -260,3 +258,66 @@
 #     if nhap_chuoi == "0":
 #         i += 1
 #         break
+
+# import random
+# print(random.randrange(1,20,1))
+
+
+# x = input('Nhập vào chuỗi: ')
+# print(x.upper())
+
+# chuoi = '          Trung tâm tin học tâm'
+# print(chuoi.count("tâm"))
+# print(chuoi.find("tâm"))
+# print(chuoi)
+# print(chuoi.strip())
+# print(chuoi.lstrip())
+# print(chuoi.rstrip())
+
+# chuoi = 'Trung tâm tin học tâm'
+# chuoi.replace('Trung tâm', 'trường học')
+# print(chuoi)
+# print(chuoi.replace('Trung tâm', 'trường học'))
+
+# chuoi = 'Thành phố Hồ Chí Minh'
+# print(chuoi.split())
+
+# chuoi1 = 'Hồ Chí Minh - Hà Nội - Đà Nẵng'
+# print(chuoi1.split("-"))
+
+# chuoi = ' - '
+# list_chuoi = ['Hồ Chí Minh',"Hà Nội","Đà Nẵng"]
+# print(chuoi.join(list_chuoi))
+
+# import time
+# seconds = time.ctime()
+# print(seconds)
+
+# import time
+# seconds = time.time()
+# local_time = time.localtime(seconds)
+# print(local_time)
+
+# import time
+# print('Chương trình sẽ bắt đầu sau 5 giây. Vui lòng chờ...')
+# time.sleep(5)
+# print('Bắt đầu!')
+
+# import time
+# seconds = time.time()
+# local_time = time.localtime(seconds)
+# print('localtime: ', time.asctime(local_time))
+# gm_time = time.gmtime(seconds)
+# print('gmtime: ', time.asctime(gm_time))
+
+# import datetime
+# hom_nay = datetime.date.today()
+# print('Hôm nay: ', hom_nay)
+# print('tháng hiện tại: ', hom_nay.month)
+
+# import datetime
+# print(datetime.datetime(2023,10,11))
+
+import datetime
+ngay_hien_tai = datetime.datetime.now()
+print(ngay_hien_tai.strftime('%d-%m-%Y %H:%M:%S'))
